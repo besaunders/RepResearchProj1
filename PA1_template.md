@@ -1,4 +1,4 @@
-Reproducable Reserach Project 1
+Reproducable Research Project 1
 ========================================================
 ## Introduction
 
@@ -84,7 +84,7 @@ cat("The maximum number of steps occurs on average at ",
 ## The maximum number of steps occurs on average at  08:35 AM
 ```
 
-## Adjusted dData
+## Adjusted Data
 
 I am using the total interval average calculated above to fill in the values that were
 not measured/defined within the range of days in the data set. To make the coding more
@@ -130,7 +130,7 @@ cat("The adjusted median number of steps is: ", median(actadjd$TotalSteps), "\n"
 ## The adjusted median number of steps is:  10766
 ```
 
-## Comparison of Steps per Interval on Weekdays and Weekends
+## Weekday/weekend comparison
 
 In this section, I use the weekdays function determine the day of the week from
 the date, set a factor variable for the weekday/weekend designation to be weekdays
